@@ -47,8 +47,9 @@ button:hover {
     border-right: 1px solid #DDDDDD;
 }
 .amenities {
-    height: 100%;
+    text-overflow: ellipsis;
     width: 25%;
+    height: 100%;
 }
 
 .popover {

@@ -21,10 +21,10 @@ window.onload = function () {
 	  $('DIV.amenities h4').html(output);
 	});
 	$.get('http://0.0.0.0:5001/api/v1/status/', function(data) {
-			if (data.statusCode === 200) {
-				// add something to somethign
+			if (data.status === 'OK') {
+				$('#api_status').addClass('available');
 			} else {
-				// remove somethiugn from somehting
+				$('#api_status').removeClass('available');
 			}
   });
 }
