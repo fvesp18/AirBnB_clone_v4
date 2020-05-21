@@ -26,4 +26,5 @@ window.onload = function () {
 			} else {
 				// remove somethiugn from somehting
 			}
-  };
+  });
+}
